@@ -1,13 +1,17 @@
-Proyecto: Grafo Dirigido - MVC en C# (.NET Console App)
+# Proyecto: Grafo Dirigido - MVC en C# (.NET Console App)
 
 Autor: Sebastián Soto
+
 Curso: Programación III
+
 Profesor: Carlos Alberto Loaiza Guerrero
+
 Universidad de Manizales
+
 
 --------------------------
 
-Descripción General
+## Descripción General
 
 Este proyecto implementa un Grafo Dirigido utilizando el lenguaje C# bajo la arquitectura MVC (Modelo–Vista–Controlador), ejecutado en modo consola.
 Permite gestionar una red de usuarios (nodos) y sus relaciones (aristas) simulando interacciones entre distintos roles: Estudiantes, Profesores y Egresados.
@@ -22,7 +26,7 @@ Incluye un CRUD funcional completo, recorridos BFS y DFS, consultas sociales y e
 
 --------------------------
 
-Tecnologías y Entorno
+## Tecnologías y Entorno
 
 Lenguaje: C# 12
 
@@ -47,7 +51,7 @@ Estructura del Proyecto
  ┃ ┗ 📜 GraphController.cs # Controlador principal (flujo, CRUD, lógica interactiva)
  ┗ 📜 Program.cs          # Punto de entrada principal
 ```
- Cada capa cumple responsabilidades separadas:
+Cada capa cumple responsabilidades separadas:
 
 Model: gestión de datos, operaciones CRUD, recorridos y consultas.
 
@@ -57,16 +61,17 @@ Controller: orquesta la comunicación entre modelo y vista.
 
 --------------------------
 
-Funcionalidades Principales
-Módulo	                        Funcionalidad
-Inicio interactivo	            Permite crear usuarios y relaciones manualmente antes de iniciar el CRUD.
-Cargar demo automático	        Genera un grafo base con datos precargados (12 usuarios y 18 relaciones).
-CRUD completo	                Crear, leer, actualizar y eliminar usuarios o relaciones.
-Listados	                    Lista de usuarios registrados y lista de adyacencia.
-Recorridos BFS y DFS	        Recorrido en anchura y profundidad con detección de ciclos.
-Consultas sociales	            Usuarios sin seguidores, más influyentes y más activos.
-Totales	                        Cantidad de vértices y aristas actuales.
-Menú interactivo limpio	        Opción de limpiar pantalla y pausar la ejecución.
+## Funcionalidades Principales
+| Módulo | Funcionalidad	|
+| --- | --- |
+| Inicio interactivo	| Permite crear usuarios y relaciones manualmente antes de iniciar el CRUD |
+| Cargar demo automático	| Genera un grafo base con datos precargados (12 usuarios y 18 relaciones) |
+| CRUD completo	| Crear, leer, actualizar y eliminar usuarios o relaciones |
+| Listados	| Lista de usuarios registrados y lista de adyacencia	|
+| Recorridos BFS y DFS	| Recorrido en anchura y profundidad con detección de ciclos	|
+| Consultas sociales	| Usuarios sin seguidores, más influyentes y más activos	|
+| Totales	| Cantidad de vértices y aristas actuales	|
+| Menú interactivo limpio	| Opción de limpiar pantalla y pausar la ejecución |
 
 --------------------------
 ```
@@ -112,51 +117,53 @@ Alta relación: A → B
 ```
 --------------------------
 
-Conceptos Aplicados
+## Conceptos Aplicados
 
 Estructuras de datos: grafo dirigido representado mediante lista de adyacencia.
 
-Algoritmos:
+### Algoritmos:
 
-Búsqueda en anchura (BFS)
+- Búsqueda en anchura (BFS)
 
-Búsqueda en profundidad (DFS) con detección de ciclos
+- Búsqueda en profundidad (DFS) con detección de ciclos
 
-Programación orientada a objetos:
+### Programación orientada a objetos:
 
-Encapsulamiento y responsabilidad por capas (MVC)
+- Encapsulamiento y responsabilidad por capas (MVC)
 
-Tipos enumerados (enum Rol)
+- Tipos enumerados (enum Rol)
 
-Arquitectura MVC: separación clara entre lógica, presentación y control.
+- Arquitectura MVC: separación clara entre lógica, presentación y control.
 
-Persistencia temporal: los datos existen solo durante la ejecución (no hay base de datos).
+- Persistencia temporal: los datos existen solo durante la ejecución (no hay base de datos).
 
 --------------------------
 
-Requerimientos del Taller
+## Requerimientos del Taller
 
 Según el documento “Actividad Colaborativa II – Taller Integrador: Grafos Dirigidos (MVC en C#)”, el sistema debe cumplir con:
 
-Aplicación en consola con separación MVC.
+- [x] Aplicación en consola con separación MVC.
 
-Implementación de un grafo dirigido con nodos y relaciones.
+- [x] Implementación de un grafo dirigido con nodos y relaciones.
 
-Implementación completa del CRUD.
+- [x] Implementación completa del CRUD.
 
-Uso de recorridos BFS y DFS.
+- [x] Uso de recorridos BFS y DFS.
 
-Consultas de análisis social (usuarios sin seguidores, influyentes y activos).
+- [x] Consultas de análisis social (usuarios sin seguidores, influyentes y activos).
 
-Control total del usuario sobre el ingreso de datos.
+- [x] Control total del usuario sobre el ingreso de datos.
 
-Reporte en consola del estado del grafo (adyacencia y totales).
+- [x] Reporte en consola del estado del grafo (adyacencia y totales).
 
-Este proyecto cumple todos los puntos anteriores.
+- [x] Este proyecto cumple todos los puntos anteriores.
 
 --------------------------
-Autor
+## Autor
 
 Sebastián Soto
+
 Estudiante de Ingeniería de Sistemas y Telecomunicaciones
+
 Universidad de Manizales
