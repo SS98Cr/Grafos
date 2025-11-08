@@ -35,7 +35,7 @@ Arquitectura: MVC (Model - View - Controller)
 Paradigma: Programación Orientada a Objetos
 
 --------------------------
-
+```
 Estructura del Proyecto
 📂 Grafos
  ┣ 📂 Model
@@ -46,7 +46,7 @@ Estructura del Proyecto
  ┣ 📂 Controller
  ┃ ┗ 📜 GraphController.cs # Controlador principal (flujo, CRUD, lógica interactiva)
  ┗ 📜 Program.cs          # Punto de entrada principal
-
+```
  Cada capa cumple responsabilidades separadas:
 
 Model: gestión de datos, operaciones CRUD, recorridos y consultas.
@@ -69,7 +69,7 @@ Totales	                        Cantidad de vértices y aristas actuales.
 Menú interactivo limpio	        Opción de limpiar pantalla y pausar la ejecución.
 
 --------------------------
-
+```
 === Bienvenido a Grafos - Modo Interactivo ===
 ¿Deseas INICIAR DESDE CERO y cargar datos manualmente? (S/N): S
 
@@ -93,9 +93,9 @@ Origen (Id): A
 Destino (Id): B
 Alta relación: A → B
 ¿Deseas agregar una relación A→B? (S/N): N
-
+```
 --------------------------
-
+```
 --- MODO CRUD INTERACTIVO ---
 [1] Agregar usuario (Id, Nombre, Rol)
 [2] Eliminar usuario (Id)
@@ -109,7 +109,7 @@ Alta relación: A → B
 [10] Listar usuarios
 [C] Limpiar pantalla
 [0] Salir
-
+```
 --------------------------
 
 Conceptos Aplicados
